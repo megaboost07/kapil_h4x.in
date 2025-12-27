@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hi iam kapil By my Telegram account low price</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* CORE STYLES */
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',Arial}
+
+body {
+    background: #020024;
+    color: #fff;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* VIBRANT BUBBLE ANIMATION */
+.bubbles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background: linear-gradient(-45deg,#020024,#090979,#051937);
+}
+
+.bubble {
+    position: absolute;
+    bottom: -100px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 212, 255, 0.2);
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: rise 10s infinite ease-in;
+}
+
+.bubble:nth-child(1) { left: 10%; width: 80px; height: 80px; animation-duration: 8s; }
+.bubble:nth-child(2) { left: 20%; width: 30px; height: 30px; animation-duration: 12s; animation-delay: 1s; }
+.bubble:nth-child(3) { left: 35%; width: 50px; height: 50px; animation-duration: 7s; animation-delay: 2s; }
+.bubble:nth-child(4) { left: 50%; width: 90px; height: 90px; animation-duration: 11s; }
+.bubble:nth-child(5) { left: 65%; width: 40px; height: 40px; animation-duration: 9s; animation-delay: 3s; }
+.bubble:nth-child(6) { left: 80%; width: 60px; height: 60px; animation-duration: 10s; animation-delay: 1s; }
+
+@keyframes rise {
+    0% { transform: translateY(0) scale(1); opacity: 0; }
+    50% { opacity: 0.6; }
+    100% { transform: translateY(-110vh) scale(1.5); opacity: 0; }
+}
+
+/* GLASSMORPHISM HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+/* PHOTO ANIMATION (BLUE LINE DELETED) */
+header img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    /* Blue line deleted here */
+    border: none; 
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    animation: photoFloat 3s ease-in-out infinite;
+    transition: transform 0.5s ease;
+}
+
+header img:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+@keyframes photoFloat {
+    0%, 100% { transform: translateY(0); filter: drop-shadow(0 0 5px rgba(255,255,255,0.3)); }
+    50% { transform: translateY(-5px); filter: drop-shadow(0 0 15px rgba(255,255,255,0.6)); }
+}
+
+header a {
+    padding: 10px 22px;
+    border-radius: 30px;
+    background: linear-gradient(135deg,#00d4ff,#3a7bd5);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+}
+
+/* HERO SECTION */
+.hero { text-align: center; padding: 45px 20px; }
+.hero h1 { 
+    font-size: 32px; 
+    background: linear-gradient(to right, #fff, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGlow 2.5s infinite alternate; 
+}
+.hero p { color: #dbe6ff; margin-top: 8px; opacity: 0.9; }
+
+/* PRODUCTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 25px;
+}
+.card {
+    background: rgba(10, 20, 40, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 22px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    animation: floatCard 4s ease-in-out infinite;
+}
+.card:hover { transform: translateY(-10px); }
+
+.card img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    background: #000814;
+    padding: 12px;
+}
+.card .content { padding: 20px; }
+.card h3 { margin-bottom: 6px; color: #fff; }
+.card p { color: #c7d2ff; font-size: 14px; }
+.price span { color: #00ffcc; font-size: 24px; font-weight: 700; }
+.old { color: #888; text-decoration: line-through; margin-left: 6px; font-size: 16px; }
+
+.buy-btn {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 14px;
+    border-radius: 14px;
+    background: linear-gradient(135deg,#00d4ff,#0072ff);
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.buy-btn:hover { filter: brightness(1.2); transform: scale(1.02); }
+
+/* INFO SECTIONS */
+.info { padding: 30px 20px; display: grid; gap: 22px; }
+.info-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 22px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* FLOATING BUTTONS */
+.whatsapp, .telegram {
+    position: fixed;
+    right: 18px;
+    padding: 14px 22px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    z-index: 100;
+    transition: 0.3s;
+}
+.whatsapp { bottom: 85px; background: #25D366; }
+.telegram { bottom: 20px; background: #0088cc; }
+.whatsapp:hover, .telegram:hover { transform: scale(1.1); }
+
+footer { text-align: center; padding: 30px; color: #bcd1ff; background: rgba(2, 0, 36, 0.9); }
+
+/* KEYFRAMES */
+@keyframes floatCard {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+@keyframes textGlow {
+    from { text-shadow: 0 0 10px rgba(0, 212, 255, 0.5); }
+    to { text-shadow: 0 0 20px rgba(58, 123, 213, 0.8); }
+}
+</style>
+</head>
+<body>
+
+<div class="bubbles">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+</div>
+
+<header>  
+    <img src="https://i.supaimg.com/c550e03b-b205-41b5-a324-a8fc2bdabcc1.webp" alt="Kapil">  
+    <a href="https://instagram.com/kapil_das2008" target="_blank">Instagram</a>  
+</header>
+
+<section class="hero">  
+    <h1>Hi I'm Kapil</h1>
+    <p>Telegram Accounts sale Low Prices</p>  
+</section>
+
+<section class="products">  
+    <div class="card">  
+        <img src="https://i.supaimg.com/ee2dc8cb-31c5-428a-bdb2-6ced6b49197c.jpg">  
+        <div class="content">  
+            <h3>Basic Plan</h3>  
+            <p>7 Days access</p>  
+            <div class="price"><span>₹249</span><span class="old">₹999</span></div>  
+            <a class="buy-btn" href="https://wa.me/918134958144?text=Hi%20Kapil,%20I%20want%20to%20buy%20Basic%20Plan" target="_blank">Buy Now</a>  
+        </div>  
+    </div>  
+
+    <div class="card">  
+        <img src="https://i.supaimg.com/39de1efc-a6e6-4246-9dca-cadf911483bb.jpg">  
+        <div class="content">  
+            <h3>Standard Plan</h3>  
+            <p>15 Days access</p>  
+            <div class="price"><span>₹899</span><span class="old">₹1999</span></div>  
+            <a class="buy-btn" href="https://wa.me/918134958144?text=Hi%20Kapil,%20I%20want%20to%20buy%20Standard%20Plan" target="_blank">Buy Now</a>  
+        </div>  
+    </div>  
+
+    <div class="card">  
+        <img src="https://i.supaimg.com/b90dd0de-7de5-4bb6-9572-1e77169255d9.jpg">  
+        <div class="content">  
+            <h3>Premium Plan</h3>  
+            <p>30 Days access</p>  
+            <div class="price"><span>₹149</span><span class="old">₹500</span></div>  
+            <a class="buy-btn" href="https://wa.me/918134958144?text=Hi%20Kapil,%20I%20want%20to%20buy%20Premium%20Plan" target="_blank">Buy Now</a>  
+        </div>  
+    </div>  
+</section>
+
+<section class="info">  
+    <div class="info-card">  
+        <h2>📱 telegram Privacy</h2>  
+        <p>If you buy a Telegram account from me, you can rest assured there will be no scams. I provide 100% private accounts with high engagement (2k to 2.5k views). If you are interested, please contact me via WhatsApp or Instagram. 😍💯</p>  
+    </div>  
+    <div class="info-card">  
+        <h2>👤 contact Time</h2>  
+        <p>I don't use WhatsApp all the time. You can message me at 6:00 AM and 2:00 PM, as I am always on my phone during those times. If you really want my Telegram account, then message me; otherwise, please don't. Instagram:- kapil_das_2008 YouTube :- mega Boost official </b></p>  
+    </div>  
+</section>
+
+<a class="whatsapp" href="https://wa.me/918134958144" target="_blank">WhatsApp</a>
+<a class="telegram" href="https://t.me/+y4__XGNTO4w0ZmE1" target="_blank">Telegram</a>
+
+<footer>  
+    © 2025 • Designed by Kapil Das  
+</footer>
+
+</body>  
+</html>
